@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="loginPage.css">
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+<title>Examination System | Home</title>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="user.json"></script>
+<script src="login.js"></script>
+<script></script>
+</head>
+<body>
+	<div class="header">
+            <span style="color:#ffffff"> EXAMINATION SYSTEM</span>
+        </div>
+        <div class="container">
+            <form name="frmValidation" onsubmit="return validateUser()" action="exam.html">
+               <div id="validate"></div>
+                <table style="margin-left:120px;">
+                   <tr>
+                        <td style="font-size:18px">
+                            <div class="form-group">
+                                Username <span class="requiredRed">*</span>
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" id="userName"/></br></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size:18px" class="demo">Password <span class="requiredRed">*</span>&emsp;</td>
+                        <td>
+                            <input type="password" class="form-control" id="password" /></br>
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td><br></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="confirm" required/>&emsp;I have gone through the rules<br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                    	<td><br></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" class="btn btn-success" style="margin-left:150px" onclick="return validateUser()" value="SUBMIT"/></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <P id="userAuth" class="required1" style="margin-left:200px;padding-left:100px;"></P><br><br>
+            <div style="margin-top:100px;margin-left:160px;font-size:18px;">
+                <ol>
+                    <strong>Rules of Quiz</strong><br><br>
+                    <li>
+                        This quiz contains 10 questions. The time limit is 5 minutes.<br><br>
+                    </li>
+                    <li>
+                        For each correct response you will be awarded 1 points.<br><br>
+                    </li>
+                    <li>
+                        There is no negative points for incorrect response.<br><br>
+                    </li>
+                </ol>
+            </div>
+        </div>
+</body>
+</html>

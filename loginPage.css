@@ -1,0 +1,47 @@
+.header {
+  overflow: hidden;
+  background-color: #808080;
+  padding: 30px 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.container{
+    padding-left: 180px;
+    margin-top: 3%;
+}
+#listHead{
+    font-size: 20px;
+    padding: 5px;
+}
+#taskHead{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 23px;
+}
+.btnDesign{
+    margin-left: 130%;
+}
+.scoreDisplay{
+    font-size: 16px;
+    text-align: center;
+    width: 350px;
+    align-content: center;
+    margin-top: 15px;
+}
+form{
+    margin-left: 12%;
+}
+body{
+    background-color: rgba(123, 200, 209, 0.22);
+}
+.demo{
+    padding-bottom: 20px;
+}
+.requiredRed{
+    color: red;
+}
+.required1{
+	margin-left: 20%;
+    color: red;
+}

@@ -1,0 +1,92 @@
+.header {
+  overflow: hidden;
+  background-color: #808080;
+  padding: 30px 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.container{
+    background-color: #F3F1B1;
+    margin-top: 3%;
+    height: 400px;
+    width: 65%;
+    float:left;
+    margin-left: 25px;
+}
+.side{
+    height: 400px;
+    margin-left: 68%;
+    position: absolute;
+    background-color:#f9ffe5;
+    border: 1px solid #F3F1B1;
+    padding: 35px 25px 25px 35px;
+    width: 350px;
+}
+#listHead{
+    font-size: 20px;
+    padding: 5px;
+}
+#taskHead{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 23px;
+}
+.btnDesign{
+    margin-left: 100%;
+}
+.scoreDisplay{
+    font-size: 16px;
+    text-align: center;
+    width: 350px;
+    align-content: center;
+    margin-top: 15px;
+}
+form{
+    margin-left: 12%;
+}
+body{
+    background-color: rgba(123, 200, 209, 0.22);
+}
+.demo{
+    padding-bottom: 20px;
+}
+.requiredRed{
+    color: red;
+}
+.required1{
+	margin-left: 220%;
+    color: red;
+}
+#question{
+    padding: 30px 20px 20px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#options{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+#btnNext{
+    float: right;
+    margin-right: 6px;
+}
+#btnPrev{
+    margin-left: 6px;
+    float: left;
+}
+.resultScore{
+	text-align:center;
+	font-size:28;
+}
+.timeCount{
+	text-align:right;
+	margin:5px 5px 5px 5px;
+	text-font: 20px;
+	text-weight:bold;
+	color: red;
+}
+.round-btn{
+    border-radius: 50%;
+    margin: 8px 8px 8px 8px;
+}

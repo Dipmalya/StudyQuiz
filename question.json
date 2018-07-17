@@ -1,0 +1,102 @@
+[
+    {
+        "qid":0,
+        "question": "Recently, Which team become first finalists of 2018 FIFA World Cup?",
+        "option1": "France",
+        "option2": "Belgium",
+        "option3": "England",
+        "option4": "Croatia",
+        "answer":"France",
+        "ansid":0
+    },
+    {
+        "qid":1,
+        "question": "Former Australian captain Mark Taylor has had several nicknames over his playing career. Which of the following was NOT one of them?",
+        "option1": "Tubby",
+        "option2": "Stodge",
+        "option3": "Helium Bat",
+        "option4": "Stumpy",
+        "answer":"Stumpy",
+        "ansid":3
+    },
+    {
+        "qid":2,
+        "question": "Which was the 1st non Test playing country to beat India in an international match?",
+        "option1": "Canada",
+        "option2": "Sri Lanka",
+        "option3": "Zimbabwe",
+        "option4": "East Africa",
+        "answer":"Sri Lanka",
+        "ansid":1
+    },
+    {
+        "qid":3,
+        "question": "Which county did Ravi Shastri play for?",
+        "option1": "Glamorgan",
+        "option2": "Leicestershire",
+        "option3": "Gloucestershire",
+        "option4": "Lancashire",
+        "answer":"Glamorgan",
+        "ansid":0
+    },
+    {
+        "qid":4,
+        "question": "Ricky Ponting is also known as what?",
+        "option1": "Rickster",
+        "option2": "Ponts",
+        "option3": "Punter",
+        "option4": "Ponter",
+        "answer":"Punter",
+        "ansid":2
+    },
+    {
+        "qid":5,
+        "question": "In which year did Milkha Singh win the first National title in the 400 m race?",
+        "option1": "1955",
+        "option2": "1956",
+        "option3": "1957",
+        "option4": "1970",
+        "answer":"1957",
+        "ansid":2
+    },
+    {
+        "qid":6,
+        "question": "Who was the 1st ODI captain for India?",
+        "option1": "Ajit Wadekar",
+        "option2": "Bishen Singh Bedi",
+        "option3": "Nawab Pataudi",
+        "option4": "Vinoo Mankad",
+        "answer":"Ajit Wadekar",
+        "ansid":0
+    },
+    {
+        "qid":7,
+        "question": "Where did India play its 1st one day international match?",
+        "option1": "Lords",
+        "option2": "Headingley",
+        "option3": "Taunton",
+        "option4": "The Oval",
+        "answer":"Headingley",
+        "ansid":1
+    },
+    {
+        "qid":8,
+        "question": "The Asian Games were held in Delhi for the first time in...?",
+        "option1": "1951",
+        "option2": "1963",
+        "option3": "1971",
+        "option4": "1982",
+        "answer":"1951",
+        "ansid":0
+    },
+    {
+        "qid":9,
+        "question": "The 'Dronacharya Award' is given to...?",
+        "option1": "Sportsmen",
+        "option2": "Coaches",
+        "option3": "Umpires",
+        "option4": "Sports Editors",
+        "answer":"Coaches",
+        "ansid":1
+    }
+]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="examPage.css">
+<title>Examination System | Quiz</title>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="question.js"></script>
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+</head>
+<body onload="return questionFirst();" onblur="validUser()">
+	<div class="header">
+            <span style="color:#ffffff"> EXAMINATION SYSTEM</span>
+        </div>
+        <div style="text-align:right;padding:20px 20px 2px 0px;font-size:20px;font-weight:bold;color:red;" id="timeCount">05:00</div>
+        <div class="container" id="screen">
+            <div class="side" id="panel">
+                
+            </div>
+            <div id="question">
+                <span id="qName"></span>
+                <div id="options">
+                    <input type="radio" name="option" value="opt1"/>&emsp;<span id="opt1"></span><br><br>
+                    <input type="radio" name="option" value="opt2"/>&emsp;<span id="opt2"></span><br><br>
+                    <input type="radio" name="option" value="opt3"/>&emsp;<span id="opt3"></span><br><br>
+                    <input type="radio" name="option" value="opt4"/>&emsp;<span id="opt4"></span><br><br>
+                </div>
+            </div>
+            <input type="button" id="btnNext" value="NEXT" onclick="nextQ()" class="btn btn-info"/>
+            <input type="button" id="btnPrev" value="PREV" onclick="prevQ()" class="btn btn-info"/>
+        </div>
+</body>
+</html>
